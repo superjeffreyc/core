@@ -13,7 +13,7 @@ These remote dependencies have been added to the "local_dependencies" branch
 ======================================
 
 # Requirements
-- NodeJS
+- NodeJS (https://nodejs.org/en/)
 - If using Cygwin, install dos2unix package
 - Make sure you are running as administrator
 
