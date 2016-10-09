@@ -14,6 +14,8 @@ These remote dependencies have been added to the "local_dependencies" branch
 
 # Requirements
 - NodeJS (https://nodejs.org/en/)
+- curl or wget
+- git
 - If using Cygwin, install dos2unix package
 - Make sure you are running as administrator
 
@@ -24,8 +26,9 @@ These remote dependencies have been added to the "local_dependencies" branch
 - dos2unix scripts/install-sdk.sh
 - scripts/install-sdk.sh
 
-## For Windows, also run the following (requires curl)
+## For Windows, also run ONE of the following (requires curl or wget)
 - curl -L https://raw.githubusercontent.com/cloud9ide/sdk-deps-win32/master/install.sh | bash
+- wget -O - https://raw.githubusercontent.com/cloud9ide/sdk-deps-win32/master/install.sh | bash
 
 # After install
 - node server.js -p 8080 -a
