@@ -47,3 +47,8 @@ These remote dependencies have been added to the "local_dependencies" branch
     --collab         Whether to enable collab.
     --no-cache       Don't use the cached version of CSS
 
+# Issues with vim
+Consider using c9 as the default editor:
+- npm install -g c9 
+- You also need to go to Settings->User Settings->Terminal and check Use Cloud9 as the Default Editor
+- c9 [filename]
