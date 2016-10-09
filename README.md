@@ -55,3 +55,7 @@ Consider using c9 as the default editor:
 - npm install -g c9 
 - You also need to go to Settings->User Settings->Terminal and check Use Cloud9 as the Default Editor
 - c9 [filename]
+
+# Troubleshooting
+- Make sure your PATH system environment variable is set properly
+- Make sure you have all the requirements installed
