@@ -24,6 +24,9 @@ These remote dependencies have been added to the "local_dependencies" branch
 - dos2unix scripts/install-sdk.sh
 - scripts/install-sdk.sh
 
+## For Windows, also run the following (requires curl)
+- curl -L https://raw.githubusercontent.com/cloud9ide/sdk-deps-win32/master/install.sh | bash
+
 # After install
 - node server.js -p 8080 -a
 - Go to http://127.0.0.1:8080 in your browser
