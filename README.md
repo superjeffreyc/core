@@ -56,6 +56,9 @@ Consider using c9 as the default editor:
 - You also need to go to Settings->User Settings->Terminal and check Use Cloud9 as the Default Editor
 - c9 [filename]
 
-# Troubleshooting
+# Troubleshooting install
 - Make sure your PATH system environment variable is set properly
 - Make sure you have all the requirements installed
+
+# Error messages when running server.js
+- If you get a message along the lines of "SyntaxError: Unexpected token ! in JSON at position 0" in plugins/c9.ide.run/runners-docker/SOMEFILE, open that file with a text editor and verify that it is a path pointing to the corresponding file in the runners folder (e.g. ../runners/SOMEFILE). If it is not, replace the contents of the file with this path.
